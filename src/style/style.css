@@ -63,3 +63,15 @@
     font-size: small;
     text-align: center;
 }
+
+@media screen and (max-width: 1439px) {
+    .container-main {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .text-content {
+        min-width: 100%;
+        font-size: 1.5rem;
+    }
+}
